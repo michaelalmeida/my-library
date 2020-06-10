@@ -1,5 +1,5 @@
-import React from "./node_modules/react";
-import styled, { css } from "./node_modules/styled-components/native";
+import React from "react";
+import styled, { css } from "styled-components/native";
 
 import { mainColorBackground } from "../Style/colors";
 

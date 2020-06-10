@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import * as Font from "expo-font";
 
-import { Home } from "./src/components/home/Home";
+import { Home } from "./src/components/Home/Home";
+import { NavigationBar } from "./src/components/NavigationBar/NavigationBar";
 
 export default function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <>
       <Home />
+      <NavigationBar />
     </>
   );
 }
