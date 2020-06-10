@@ -1,18 +1,17 @@
 import React from "react";
 import styled, { css } from "styled-components/native";
 
-import { mainColorBackground } from "../Style/colors";
+import { secondColorBackground } from "../Style/colors";
 
 const HeaderView = styled.View`
   padding: 30px;
   flex-direction: column;
   flex-wrap: wrap;
   height: 300px;
-  ${mainColorBackground}
+  ${secondColorBackground}
 `;
 
 const TilteSharedStyle = css`
-  font-family: "Arimo-Regular";
   color: #ffffff;
 `;
 

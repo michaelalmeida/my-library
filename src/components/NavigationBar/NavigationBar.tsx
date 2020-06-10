@@ -13,9 +13,9 @@ const NavegationBarView = styled.View`
   left: 0;
   bottom: 0;
   background: #ffffff;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 `;
 
 interface NavegationIcon {
