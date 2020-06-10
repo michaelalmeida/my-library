@@ -1,7 +1,7 @@
-import React from "react";
-import styled, { css } from "styled-components/native";
+import React from "./node_modules/react";
+import styled, { css } from "./node_modules/styled-components/native";
 
-import { mainColorBackground } from "../style/colors";
+import { mainColorBackground } from "../Style/colors";
 
 const HeaderView = styled.View`
   padding: 30px;

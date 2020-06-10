@@ -4,7 +4,7 @@ I'm building my first React Native app :metal: for readers manage their reading
 
 ## Stack
 
-- :iphone: React Native
+- :iphone: React Native (+ Expo)
 - :page_with_curl: TypeScript
 - :file_folder: Redux
 - :art: Styled-components
