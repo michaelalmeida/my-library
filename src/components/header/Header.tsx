@@ -1,18 +1,17 @@
-import React from "./node_modules/react";
-import styled, { css } from "./node_modules/styled-components/native";
+import React from "react";
+import styled, { css } from "styled-components/native";
 
-import { mainColorBackground } from "../Style/colors";
+import { secondColorBackground } from "../Style/colors";
 
 const HeaderView = styled.View`
   padding: 30px;
   flex-direction: column;
   flex-wrap: wrap;
   height: 300px;
-  ${mainColorBackground}
+  ${secondColorBackground}
 `;
 
 const TilteSharedStyle = css`
-  font-family: "Arimo-Regular";
   color: #ffffff;
 `;
 
@@ -39,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ isHomeScreen }) => {
           <>
             <Title>Olá,</Title>
             <DailyInfo>
-              Você leu 33 páginas esta semana, sua meta é 250
+              Você leu 3 páginas esta semana, sua meta é 250
             </DailyInfo>
           </>
         )}

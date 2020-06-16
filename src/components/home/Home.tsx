@@ -5,7 +5,7 @@ import { Header } from "../Header/Header";
 const Home = () => {
   return (
     <>
-      <Header isHomeScreen={true} />
+      <Header isHomeScreen />
     </>
   );
 };
