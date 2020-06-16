@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ isHomeScreen }) => {
           <>
             <Title>Olá,</Title>
             <DailyInfo>
-              Você leu 33 páginas esta semana, sua meta é 250
+              Você leu 3 páginas esta semana, sua meta é 250
             </DailyInfo>
           </>
         )}
